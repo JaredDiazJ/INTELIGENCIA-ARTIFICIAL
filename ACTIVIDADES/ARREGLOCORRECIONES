@@ -1,0 +1,31 @@
+lalista = ["uno", "dos"] #la lista se caracterisa con los []
+print(len(lalista))
+print(lalista)
+lista2 =[1, 5, "marzo", 4.5, True, 4.52, "a", -123]
+print(lista2[1]) #segundo elemento de la lista
+print(lista2[-1]) #ultimo elemento de la lista
+print(lista2[0:3]) #rango de una lista
+lista2.append(555) #agregar cosas a la lista
+
+latupla = (1, 3, "hola", "Redes") # esta es una tupla y ya no puedes agregarle mas datos despues
+print(latupla[3])
+
+if lista2[1] > latupla[1]: # sintaxis if
+    print("la lista es mayor")
+elif lista2[1] < latupla[1]:
+    print("la tupla es mayor") #sintaxis else if
+else: #sintaxis else,
+    print("la tupla es mayor")
+
+x = 3
+
+if x > 9:
+    print("1")
+    if x > 15:
+        print("2")
+    else:
+        print("hola")
+y=0
+for x in lista2:
+    print(lista2[y])
+    y+= 1
